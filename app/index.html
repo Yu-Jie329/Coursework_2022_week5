@@ -1,0 +1,181 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="row justify-content-between align-items-center mb-11">
+  <div class="col-4 d-flex justify-content-between align-items-center">
+    <h2 class="fs-2 fw-bold">Assignment</h2>
+    <div class="dropdown">
+      <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        All Courses
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-2 text-end">
+    <a href="#" class="me-6 hover-color-secondary">
+      <span class="material-icons">
+        search
+        </span>
+    </a>
+    <a href="#" class="hover-color-secondary">
+      <span class="material-icons">
+        notifications_active
+        </span>
+    </a>
+  </div>
+</div>
+<div class="row justify-content-between align-items-center">
+  <div class="col-2">
+    <div class="dropdown">
+      <button class="btn dropdown-toggle px-0" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        All (4)
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item" href="#">Chapter Assignment 2</a></li>
+        <li><a class="dropdown-item" href="#">Chapter Assignment 1</a></li>
+        <li><a class="dropdown-item" href="#">Final Assignment</a></li>
+        <li><a class="dropdown-item" href="#">Final Assignment</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-2 text-end">
+    <p class="text-dark fs-6">2 comments</p>
+  </div>
+</div>
+<div class="row">
+  <ul class="col-4">
+    <li class="border border-light bg-info p-3">
+      <div class="d-flex justify-content-between mb-1">
+        <p class="fs-6">Chapter Assignment 2</p>
+        <span class="fs-6">4 hrs ago</span>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p class="fw-bold">Please check this file…</p>
+        <span class="fs-6 text-dark">Emily Wang</span>
+      </div>
+    </li>
+    <li class="border border-light p-3">
+      <div class="d-flex justify-content-between mb-1">
+        <p class="fs-6">Chapter Assignment 1</p>
+        <span class="fs-6">12 hrs ago</span>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p class="fw-bold">My Homework</p>
+        <span class="fs-6 text-dark">David Xu</span>
+      </div>
+    </li>
+    <li class="border border-light p-3">
+      <div class="d-flex justify-content-between mb-1">
+        <p class="fs-6">Final Assignment</p>
+        <span class="fs-6">18 hrs ago</span>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p class="fw-bold">Have a problem with this…</p>
+        <span class="fs-6 text-dark">Tony Wei</span>
+      </div>
+    </li>
+    <li class="border border-light p-3">
+      <div class="d-flex justify-content-between mb-1">
+        <p class="fs-6">Final Assignment</p>
+        <span class="fs-6">19 hrs ago</span>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p class="fw-bold">Did I do it right?</p>
+        <span class="fs-6 text-dark">Christina Lin</span>
+      </div>
+    </li>
+  </ul>
+  <div class="col-8">
+    <div class="d-flex justify-content-between align-items-center px-4 py-3 border border-light bg-info">
+      <div class="">
+        <span class="fs-6">Chapter Assignment 2 / HTML&CSS</span>
+        <p class="fw-bold">Please check this file for me, thanks!</p>
+      </div>
+      <a href="#" class="hover-color-secondary">
+        <span class="material-icons ">
+          more_vert
+          </span>
+      </a>
+    </div>
+    <ul class="border border-light mb-4">
+      <li>
+        <div class="d-flex align-items-center ps-4 pt-4 pe-8 mb-4">
+          <div class="pe-4">
+            <img src="./assets/images/emilywang.jpeg" alt="Andy Chen" class="rounded-circle" style="width: 2.5rem ;height: 2.5rem">
+          </div>
+          <div>
+            <h4 class="fw-bold">Emily Wang</h4>
+            <p class="text-dark fs-6">10:38 AM (4 hours ago)</p>
+          </div>
+        </div>
+        <div class="border-bottom border-light ms-16 me-8 pb-4">
+          <p class="fs-5 mb-4">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="text-secondary">div</span> is bigger than the height of the <span class="text-secondary">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br> What is the gap or extra space below image?</p>
+          <a href="#" download class="d-inline-block bg-info border border-light rounded-2 ps-3 pt-2 pe-4 pb-2 hover-fadeout">
+            <div class="d-flex align-items-center">
+              <span class="material-icons me-2">
+                attach_file
+                </span>
+                <p>HW-2-David.zip</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="d-flex justify-content-between align-items-center ps-4 pt-4 pe-8 mb-4">
+          <div class="d-flex align-items-center">
+            <div class="pe-4">
+              <img src="./assets/images/andychen.jpeg" alt="Andy Chen" class="rounded-circle" style="width: 2.5rem ;height: 2.5rem">
+            </div>
+            <div>
+              <h4 class="fw-bold">Andy Chen (You)</h4>
+              <p class="text-dark fs-6">13:24 AM (1 hours ago)</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <a href="#" class="me-6 hover-color-secondary">
+              <span class="material-icons">
+                star_border
+                </span>
+            </a>
+            <a href="#" class="hover-color-secondary">
+              <span class="material-icons">
+                edit
+                </span>
+            </a>
+          </div>
+        </div>
+        <div class="ms-16 me-8 pb-6">
+          <p class="fs-5">
+            Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.<br><br> You can:<br> <br>　• adjust the <span class="text-secondary">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="text-secondary">middle</span> ) or <br>　• change the <span class="text-secondary">display</span> so it isn’t inline.
+          </p>
+        </div>
+      </li>
+    </ul>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex">
+        <a href="#" class="me-6 hover-color-secondary">
+          <span class="material-icons">
+            chevron_left
+            </span>
+        </a>
+        <a href="#" class="hover-color-secondary">
+          <span class="material-icons">
+            chevron_right
+            </span>
+        </a>
+      </div>
+      <div class="d-flex">
+        <button type="button" class="btn btn-outline-secondary px-8 py-2 me-4">Mark as read</button>
+        <button type="button" class="btn btn-secondary px-8 py-2">Reply</button>
+      </div>
+    </div>
+  </div>
+</div>

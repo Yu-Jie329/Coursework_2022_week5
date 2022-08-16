@@ -1,0 +1,29 @@
+.hover-bigger {
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+.hover-fadeout {
+    &:hover {
+        opacity: 0.5;
+        color: $secondary;
+        font-weight: bold;
+    }
+}
+.hover-color-warning {
+    &:hover {
+        color: $warning;
+    }
+}
+.hover-color-secondary {
+    &:hover {
+        color: $secondary;
+    }
+}
+.hover-border-left {
+    &:hover {
+        border-left: 4px solid $secondary;
+        margin-left: -4px;
+    }
+}
+
